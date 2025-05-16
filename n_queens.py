@@ -90,3 +90,8 @@ def run_genetic_algorithm():
 
 # Executar
 run_genetic_algorithm()
+
+#Para o atributo população: Aumentando: Geralmente melhora o desempenho. Uma população maior tem mais diversidade genética, o que aumenta a chance de encontrar indivíduos com bom fitness inicial e explorar melhor o espaço de busca. No entanto, cada geração levará mais tempo para ser processada.
+#Diminuindo: Pode piorar o desempenho. Uma população pequena tem menos diversidade, aumentando o risco de convergência prematura (o algoritmo fica preso em um ótimo local que não é a solução global) e pode não ser capaz de encontrar a solução ótima. É mais rápido por geração, mas pode exigir mais gerações no total, ou falhar em encontrar a solução.
+#Para a taxa de mutação: Aumentando: Introduz mais aleatoriedade na população. Isso pode ajudar a sair de ótimos locais e explorar novas partes do espaço de busca. No entanto, uma taxa de mutação muito alta pode destruir indivíduos com bom fitness e dificultar a convergência para a solução.
+#Diminuindo: Reduz a aleatoriedade. Isso pode ajudar a refinar soluções existentes e convergir mais rapidamente se a população já estiver perto da solução. No entanto, uma taxa de mutação muito baixa pode fazer com que o algoritmo fique preso em ótimos locais e não consiga encontrar a solução global.
